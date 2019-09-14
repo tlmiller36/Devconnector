@@ -5,4 +5,4 @@ router.get('/test', (req, res) => res.json({
   msg: 'profile works'
 }));
 
-module.export = router;
+module.exports = router;
